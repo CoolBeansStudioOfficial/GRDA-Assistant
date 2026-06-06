@@ -9,7 +9,7 @@ export function searchQueries(string) {
     for (var i = 0; i < queries.length; i++) {
         //search each phrasing of the query
         for (var j = 0; j < queries[i].questions.length; j++) {
-            var matches = getWordMatches(queries[i].questions[j].toLowerCase(), string);
+            var matches = getWordMatches(queries[i].questions[j].toLowerCase(), string.toLowerCase());
 
             //if the string matches the most words in a query, make it the only result on the list
             if (matches > bestMatch) {
