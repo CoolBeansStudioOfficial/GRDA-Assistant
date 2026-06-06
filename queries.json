@@ -1,0 +1,43 @@
+{
+    "queries": [
+        {
+            "type": "checklist",
+            "questions": [ "What is the correct layout sequence for a standard morning coffee and beverage station setup", "drink coffee bar prep prepare check setup set up" ],
+            "answer": "Excellent question!\n\nHere is a checklist to give you immediate visual/spatial guidance to set up a boardroom buffet table correctly before guests arrive, preventing lines and keeping service organized.",
+            "items": [ "Mugs", "Plates", "Coffee urns", "Hot water", "Creamers", "Sweeteners", "Napkins", "Stir sticks", "Ensure clean tablecloth handles drop evenly to approximately 1 inch above floor level" ]
+        },
+        {
+            "type": "text",
+            "questions": [ "How long does the Ecolab Oasis 146 sanitizing spray need to sit on the buffet counter before I wipe it off", "sanitize sanitizer sanitization clean cleaning cleaner" ],
+            "answer": "You must let the surface stay wet for at least 60 seconds before wiping. Do not dry immediately."
+        },
+        {
+            "type": "text",
+            "questions": [ "What is the mix ratio of the Ecolab Oasis 146 sanitizing spray", "sanitize sanitizer sanitization clean cleaning cleaner" ],
+            "answer": "Mix 0.25oz of Ecolab Oasis 146 per gallon of warm water (150-400 ppm)."
+        },
+        {
+            "type": "checklist",
+            "questions": [ "What should I do if a guest spills hot coffee on the carpet during an active executive board meeting", "emergency drink accident accidentally floor spill" ],
+            "answer": "Sorry to hear about a spill in the workplace.\n\nHere is a discreet, rapid response plan to handle the accident quietly and safely without disrupting the meeting.",
+            "items": [ "Enter quietly through a door in the rear of the room", "Hand the guest a dry linen napkin immediately", "Blot (do not rub) the carpet using an emergency microfiber pad", "Apply neutral spot remover after the meeting wraps up" ]
+        },
+        {
+            "type": "checklist",
+            "questions": [ "Can you audit my breakfast bar setup before doors open", "prep prepare check setup set up" ],
+            "answer": "Sure thing, happy to help! Let's do a quick final check.\n\n As long as you have completed everything on this list, you should be ready.",
+            "items": [ "Are dairy products sitting on an insulated ice bed?", "Is the coffee temperature at or above 140°F?", "Are electrical cords taped down or secured to prevent tripping?" ]
+        },
+        {
+            "type": "text",
+            "questions": [ "How long before an event should I brew the coffee", "coffee prepare prep meeting event" ],
+            "answer": "Brew coffee exactly 20-30 minutes before doors open to maximize freshness."
+        },
+        {
+            "type": "checklist",
+            "questions": [ "How do I set up the dairy creamers safely", "coffee cream creamer milk" ],
+            "answer": "⚠️ WARNING: Never leave cream out at room temperature for more than 2 hours ⚠️\n\nFollow these steps to safely prepare the dairy creamers.",
+            "items": [ "Fill the insulated urn to the maximum line", "Secure the lid tightly", "Ensure half-and-half or milk pitchers are sitting inside an insulated container packed with ice" ]
+        }
+    ]
+}
