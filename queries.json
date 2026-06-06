@@ -2,7 +2,7 @@
     "queries": [
         {
             "type": "checklist",
-            "questions": [ "What is the correct layout sequence for a standard morning coffee and beverage station setup", "drink coffee bar prep prepare check setup set up all" ],
+            "questions": [ "What is the correct layout sequence for a standard morning coffee and beverage station setup", "drink coffee bar prep prepare preparation check setup set up all" ],
             "answer": "Excellent question!\n\nHere is a checklist to give you immediate visual/spatial guidance to set up a boardroom buffet table correctly before guests arrive, preventing lines and keeping service organized.",
             "items": [ "Mugs", "Plates", "Coffee urns", "Hot water", "Creamers", "Sweeteners", "Napkins", "Stir sticks", "Ensure clean tablecloth handles drop evenly to approximately 1 inch above floor level" ]
         },
@@ -24,13 +24,13 @@
         },
         {
             "type": "checklist",
-            "questions": [ "Can you audit my breakfast bar setup before doors open", "prep prepare check setup set up all" ],
+            "questions": [ "Can you audit my breakfast bar setup before doors open", "prep prepare preparation check setup set up all" ],
             "answer": "Sure thing, happy to help! Let's do a quick final check.\n\n As long as you have completed everything on this list, you should be ready.",
             "items": [ "Are dairy products sitting on an insulated ice bed?", "Is the coffee temperature at or above 140°F?", "Are electrical cords taped down or secured to prevent tripping?" ]
         },
         {
             "type": "text",
-            "questions": [ "How long before an event should I brew the coffee", "coffee prepare prep meeting event all" ],
+            "questions": [ "How long before an event should I brew the coffee", "coffee prepare prep preparation meeting event all" ],
             "answer": "Brew coffee exactly 20-30 minutes before doors open to maximize freshness."
         },
         {

@@ -11,8 +11,26 @@ input.addEventListener("input", textChanged);
 
 var opener = document.createElement("p");
 opener.className = "answer";
-opener.innerText = "Welcome to the GRDA Custodial Support Assistant 🛡️\n\nI am ready to help you with Buffet Setup, Sanitation, or Event Teardown. Enter your question below, and select one of the options that appears.\n\n(if no options appear, it is either out of the scope of my assistance OR you may have made a spelling error)";
+opener.innerText = "Welcome to the GRDA Custodial Support Assistant 🛡️\n\nI am ready to help you with Buffet Setup, Sanitation, or Event Preparation. Enter your question below, and select one of the options that appears.\n\n(if no options appear, it is either out of the scope of my assistance OR you may have made a spelling error)";
 addMessage(opener);
+
+var promptItems = ["Coffee", "Sanitizer", "Preparation"];
+var prompts = document.createElement("div");
+prompts.className = "hbox answer";
+prompts.style = "gap: 5px;"
+for (var i = 0; i < 3; i++) {
+    var prompt = document.createElement("p");
+    prompt.className = "checklist-item";
+    prompt.textContent = promptItems[i];
+    prompt.addEventListener("click", clickPrompt);
+    prompts.appendChild(prompt);
+}
+addMessage(prompts);
+
+function clickPrompt(c) {
+    input.value = c.target.textContent;
+    textChanged();
+}
 
 function textChanged() {
     var searchResult = searchQueries(input.value);
