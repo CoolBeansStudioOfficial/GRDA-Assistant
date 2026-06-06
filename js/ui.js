@@ -1,5 +1,5 @@
 import { searchQueries, fetchQuery } from "./chatbot.js";
-import { Query, Message } from "./elements.js"
+import { Query } from "./elements.js"
 
 var messageView = document.getElementById("messages");
 var input = document.getElementById("input");
